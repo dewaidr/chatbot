@@ -1,3 +1,17 @@
 {
-    "id": "vwe7J3XDR"
+    "id": "vwe7J3XDR",
+    "name": "Chatbot",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "7a75b548f6c0b5f57c2a68bec7a814c0",
+            "type": "server_side_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "dewaidr/chatbot",
+            "branch": "main"
+        }
+    }
 }
